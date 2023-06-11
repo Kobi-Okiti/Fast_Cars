@@ -2,6 +2,7 @@ body {
     background: #fafafa;
     color: #333333;
     margin-top: 5rem;
+    min-height: 100vh;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -106,7 +107,6 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-     /* Adjust this value to set the height of your footer */
     background-color: #343a40;
     color: #fff;
     padding: 20px 0;
@@ -125,3 +125,6 @@ body {
     margin-bottom:40% ;
 }
   
+.content {
+  flex: 1;
+}
